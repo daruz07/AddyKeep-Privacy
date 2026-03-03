@@ -14,11 +14,11 @@ Local Storage: All data you enter into the App, including public wallet addresse
 3. Third-Party Services
 While AddyKeep does not collect personal data on our servers, the App utilizes integrated third-party services to provide core functionalities and ensure stability. These services may collect anonymous device information:
 
-Google Play Services & Google Play Billing: Used to process in-app purchases for the Premium version. Link to Google Privacy Policy
-
-RevenueCat: Used to manage and validate Premium entitlements securely without processing direct payment information. Link to RevenueCat Privacy Policy
-
-Firebase Crashlytics: Used to collect anonymous crash reports and errors to help us improve the App's stability. Link to Firebase Privacy Policy
+* **Google Play Services & Google Play Billing:** Used to process in-app purchases for the Premium version. [Link to Google Privacy Policy](https://policies.google.com/privacy)
+  
+* **RevenueCat:** Used to manage and validate Premium entitlements securely without processing direct payment information. [Link to RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
+  
+* **Firebase Crashlytics:** Used to collect anonymous crash reports and errors to help us improve the App's stability. [Link to Firebase Privacy Policy](https://firebase.google.com/support/privacy)
 
 4. Data Retention and Deletion
 Because AddyKeep stores your directory data exclusively on your local device, you have complete control over it. You can delete all your stored data at any time by:
