@@ -1,34 +1,40 @@
-Privacy Policy for AddyKeep
-Last updated: March 2, 2026
+# Privacy Policy for AddyKeep
 
-1. Introduction
-Welcome to AddyKeep. This Privacy Policy explains how your information is handled when you use our mobile application ("the App"). AddyKeep is designed as a secure, local, and keyless directory for Web3 public addresses.
+**Last updated: October 1, 2026**
 
-2. Data Collection and Storage
-AddyKeep operates on a strict privacy-first, local-only architecture.
+## 1. Introduction
+Welcome to AddyKeep. This Privacy Policy explains how your information is handled when you use our mobile application ("the App"). AddyKeep is a secure, local, and keyless directory for Web3 public addresses.
 
-No Private Keys: We do not request, collect, or store private keys, seed phrases, or passwords.
+## 2. No Private Keys, Ever
+AddyKeep **never** requests, collects, stores, or transmits private keys, seed phrases, recovery phrases, or wallet passwords. The App only works with **public** wallet addresses. If anyone asks you for your private keys or seed phrase on behalf of AddyKeep, it is a scam.
 
-Local Storage: All data you enter into the App, including public wallet addresses, names, and custom tags, is stored entirely locally on your device's internal storage. We do not have access to this data, nor is it transmitted to any external servers owned by us.
+## 3. Your Directory Data Stays on Your Device
+All data you enter into the App (public wallet addresses, names, notes, tags, favorites, custom networks, and settings) is stored **only on your device's internal storage**. We do not operate servers that receive this data, and it is never sent to the third-party services listed below.
 
-3. Third-Party Services
-While AddyKeep does not collect personal data on our servers, the App utilizes integrated third-party services to provide core functionalities and ensure stability. These services may collect anonymous device information:
+- **No Android cloud backup:** the App opts out of Android Auto Backup and device-to-device transfer. Your directory is **not** uploaded to your Google account backup.
+- **Encrypted backup file (optional, user-initiated):** the only way to back up or move your data is the App's export feature, which creates a file encrypted with **AES-256-GCM** using a key derived from a password you choose (PBKDF2-HMAC-SHA256). You decide where that file is saved (for example, your device storage or a cloud drive of your choice). We never receive the file or the password, and we cannot recover it if you lose the password.
 
-* **Google Play Services & Google Play Billing:** Used to process in-app purchases for the Premium version. [Link to Google Privacy Policy](https://policies.google.com/privacy)
-  
-* **RevenueCat:** Used to manage and validate Premium entitlements securely without processing direct payment information. [Link to RevenueCat Privacy Policy](https://www.revenuecat.com/privacy)
-  
-* **Firebase Crashlytics:** Used to collect anonymous crash reports and errors to help us improve the App's stability. [Link to Firebase Privacy Policy](https://firebase.google.com/support/privacy)
+## 4. Third-Party Services
+To process purchases and keep the App stable, the App uses the following third-party services. They do **not** receive your wallet addresses, names, notes, or tags.
 
-4. Data Retention and Deletion
-Because AddyKeep stores your directory data exclusively on your local device, you have complete control over it. You can delete all your stored data at any time by:
+| Service | Purpose | Data collected |
+|---|---|---|
+| **Firebase Analytics** (Google) | Understanding aggregate App usage (e.g., how many people open the App) | App-instance ID, automatically collected events (such as first open, session start, screen views, app updates, in-app purchases), device model, OS version, App version, language, and approximate location (country/region derived from IP address). **The advertising ID is not collected**: the App removes the advertising-ID permission and disables advertising-ID collection. |
+| **Firebase Crashlytics** (Google) | Crash and error reports to improve stability | Crash stack traces, device model, OS version, App version, a Crashlytics installation ID, and the time of the crash. |
+| **RevenueCat** | Managing and validating the AddyKeep **Pro** purchase | A randomly generated anonymous app user ID, purchase/transaction history and receipts from Google Play, App version, platform/OS, country/locale, and IP address. RevenueCat does not process your payment card details. |
+| **Google Play Billing** (Google) | Processing the in-app purchase of **Pro** | Handled by Google Play under your Google account. We never see your payment details. |
 
-Clearing the App's data in your Android device settings.
+Privacy policies: [Google / Firebase](https://firebase.google.com/support/privacy) · [Google](https://policies.google.com/privacy) · [RevenueCat](https://www.revenuecat.com/privacy)
 
-Uninstalling the App from your device.
+AddyKeep has **no ads** and does not sell or share your data for advertising.
 
-5. Changes to This Privacy Policy
-We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last updated" date at the top.
+## 5. Data Retention and Deletion
+**On your device:** you can delete all App data at any time by deleting wallets in the App, clearing the App's data in Android Settings, or uninstalling the App. Because there is no cloud backup, uninstalling removes the data permanently (unless you kept an encrypted backup file).
 
-6. Contact Us
-If you have any questions or suggestions about this Privacy Policy, do not hesitate to contact Diego at [daruzdev@gmail.com].
+**Data held by third-party services:** you can ask us to delete any data associated with your installation in Firebase (Analytics/Crashlytics) and RevenueCat. Email **daruzdev@gmail.com** with the subject **"Data deletion request"**. We will answer and act on your request **within 30 days**. Your Pro purchase record is also kept by Google Play under your Google account and is governed by Google's policies. Firebase Analytics data is otherwise automatically deleted after the retention period configured for the project, and Crashlytics crash reports after 90 days.
+
+## 6. Changes to This Privacy Policy
+We may update this Privacy Policy from time to time. We will post the new version on this page and update the "Last updated" date at the top.
+
+## 7. Contact Us
+If you have any questions or suggestions about this Privacy Policy, contact Diego at **daruzdev@gmail.com**.
